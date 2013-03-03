@@ -1,0 +1,13 @@
+{
+  "name": "livereload-aspdotnet",
+  "version": "0.0.1",
+  "description": "Use livereload with ASP.NET",
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-regarde": "~0.1.1"
+  },
+  "devDependencies": {},
+  "author": "Fabian Raetz",
+  "license": "BSD"
+}

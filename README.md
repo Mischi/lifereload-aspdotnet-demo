@@ -1,4 +1,1 @@
-lifereload-aspdotnet-demo
-=========================
-
-Use livereload with ASP.NET
+lifereload-aspdotnet-demo=========================Use livereload with ASP.NET## How to use?* Copy Gruntfile.js and package.conf in your Solution Folder* Point "webapplication" in Gruntfile.js to your WebApplication Project Folder
