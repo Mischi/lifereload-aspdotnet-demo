@@ -1,14 +1,12 @@
 ﻿'use strict';
 
 module.exports = function (grunt) {
-    var webapplication = '_folder_';
-
-    grunt.initConfig({
+     grunt.initConfig({
         regarde: {
             fred: {
-                files: [webapplication + '/Scripts/**/**.js',
-                        webapplication + '/Views/**/**.cshtml',
-                        webapplication + '/Content/**/**.css'],
+                files: ['Scripts/**/**.js',
+                        'Views/**/**.cshtml',
+                        'Content/**/**.css'],
                 tasks: ['livereload']
             }
         }
