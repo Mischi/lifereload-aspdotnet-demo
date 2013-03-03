@@ -1,1 +1,21 @@
-lifereload-aspdotnet-demo=========================Use livereload with ASP.NET## How to use?* Copy Gruntfile.js and package.conf in your Solution Folder* Point "webapplication" in Gruntfile.js to your WebApplication Project Folder
+lifereload-aspdotnet-demo
+=========================
+
+Use livereload with ASP.NET
+
+## How to install?
+
+Copy Gruntfile.js and package.conf in your WebApplication Folder
+
+    npm install -g grunt-cli
+    npm install
+    
+Now install [LifeReload Chrome Extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) 
+    
+## How to use
+
+Start grunt in your WebApplication Folder
+
+    grunt
+    
+Now enable LifeReload on your browser tab.
